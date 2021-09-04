@@ -1,7 +1,7 @@
 # **Hack-O-Uplift**: Project **TYRIMUS**
 ## Made by Team Broker
-* Somesh Ranjan(https://www.linkedin.com/in/somesh-ranjan-286a9b208)
 * Garv Ahlawat(https://www.linkedin.com/in/garv-a-123432105/)
+* Somesh Ranjan(https://www.linkedin.com/in/somesh-ranjan-286a9b208)
 * Ankita Kumari(https://www.linkedin.com/in/ankita-kumari-a78305208)
 * Ajay Kumar(https://www.linkedin.com/in/ajay-kumar-mk-977756151)
 ## Our inspiration behind TYRIMUS
@@ -11,7 +11,10 @@
   - TYRIMUS aims to assist amateur and veteran coders in looking for partners or interns to provide assistance with large-scale projects. Furthermore, it helps them keep up with the quickly developing world of programming by going through our vast resources of code, programs and projects.
   - Our intensive and exhaustive resources ensure that none of our members ever feel at their wits' end.
 ## TYRIMUS Screen Captures
-[insert images here]
+![Home Page](https://github.com/somesh202/Hack-O-uplift/blob/7a30d781fe53111b7ffa38553e37c8dc5963d8e9/public/images/Tyrimas1.png)
+![Login Page](https://github.com/somesh202/Hack-O-uplift/blob/7a30d781fe53111b7ffa38553e37c8dc5963d8e9/public/images/Tyrimas2.png)
+![Dashboard](https://github.com/somesh202/Hack-O-uplift/blob/7a30d781fe53111b7ffa38553e37c8dc5963d8e9/public/images/Tyrimas3.png)
+![About Us](public/images/Tyrimas4.png)
 ## Techstack Used
 * SAWO Labs API
 * HTML/CSS
