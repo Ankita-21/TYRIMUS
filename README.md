@@ -21,5 +21,5 @@
 ## Features Implemented 
 * Fully functional home page
 * Fully functional login page with authenticated using SAWO Labs API
-* Fully functional about us page
 * Fully functional dashboard with functional form to create new project
+* Fully functional about us page
