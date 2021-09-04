@@ -38,15 +38,13 @@
           </form>
         </div>
       </nav>
-      <div class="login-svg">
+      <!-- <div class="login-svg">
         <img src="undraw_Mobile_login_re_9ntv.svg" alt="login">
-    </div>
+    </div> -->
     <div id="sawo-container">
        
         <h2>Login <i class="fas fa-sign-in-alt"></i></h2>
-        
     </div>
-    
     <script src="https://websdk.sawolabs.com/sawo.min.js"></script>
     <script>
       // Fetching payload from sessionStorage
@@ -54,7 +52,7 @@
       if (payload) {
         // If the payload is available, that means the user has logged in already.
         // So redirecting back to "/login"
-        window.location.href = "/success.html";
+        window.location.href = "/dashboard.html";
       }
       var config = {
         // should be same as the id of the container created on 3rd step
@@ -68,11 +66,18 @@
           // Storing the payload in sessionStorage
           sessionStorage.setItem("payload", JSON.stringify(payload));
           // Redirecting to "/success"
-          window.location.href = "/success";
+          window.location.href = "/dashboard.html";
         },
       };
       var sawo = new Sawo(config);
       sawo.showForm();
+      const registerBtn = document.getElementById('register-link');
+      const registerForm = document.getElementById('register');
+      registerBtn.addEventListener("click", () => {
+          registerForm.style.display = "block";
+          document.getElementById("sawo-container").style.display = "none"
+      })
+
     </script>
   </body>
 </html>
