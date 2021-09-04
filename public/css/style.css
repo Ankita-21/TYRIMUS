@@ -317,4 +317,51 @@ font-size: 3em;
 text-align: center;
 font-weight: 600;
   }
+  #aboutus .column {
+    float: left;
+    width: 23.5%;
+    margin-bottom: 16px;
+    margin-left: 10px;
+    padding: 0 8px;
+  }
+  
+  #aboutus .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  #aboutus .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  #aboutus .container {
+    padding: 10px 16px;
+  }
+  
+  #aboutus .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  #aboutus .title {
+    color: grey;
+  }
+  #logo{
+    width: 30px;
+    height: 30px;
+  }
+  #aboutus h1{
+    font-size: 3em;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    position: relative;
+    text-emphasis: bold;
+    padding: 10px 20px;
+    text-align: center;
+  }
   
