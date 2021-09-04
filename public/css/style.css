@@ -10,10 +10,11 @@
 #home{
     padding: 10px 10px;
     max-width: 100%;
-    background: url("kelly-sikkema-fUdTivaXoYs-unsplash.jpg");
+    background: url("../images/home-jumbo.jpg");
     background-size: cover;
     background-attachment: fixed;
     padding: 10px 10px;
+    height: 70vh;
 }
 
 #home h1{
@@ -23,7 +24,7 @@
     font-weight: 700;
     position: relative;
     text-emphasis: bold;
-    padding: 10px 20px;
+    padding: 10px 20px;text-align: center;
 }
 #home h2{
     font-size: 2em;
@@ -31,6 +32,7 @@
     /* left: 20px; */
     /* font-weight: 700; */
     position: relative;
+    text-align: center;
     /* text-emphasis: bold; */
     padding: 10px 20px;
 }
@@ -72,7 +74,7 @@ nav ul li a:hover {
     transition: all 2s;
   }
   #home .btn-2 {
-     margin: 10px;
+     margin: auto;
      padding: 15px 45px;
      text-align: center;
      text-transform: uppercase;
@@ -81,7 +83,7 @@ nav ul li a:hover {
      background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%);
      color: white;       
      font-weight: 600;     
-     box-shadow: 0 0 20px #eee;
+     /* box-shadow: 0 0 20px rgb(0, 0, 0); */
      border-radius: 10px;
      display: block;
      position: relative;
