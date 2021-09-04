@@ -336,12 +336,16 @@ font-weight: 600;
     width: 23.5%;
     margin-bottom: 16px;
     margin-left: 10px;
-    padding: 0 8px;
+    /* padding: 0 8px; */
   }
   
   #aboutus .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
+  }
+  .fab{
+      font-size: 1.4em;
+      color: black;
   }
   
   #aboutus .about-section {
@@ -353,6 +357,10 @@ font-weight: 600;
   
   #aboutus .container {
     padding: 10px 16px;
+  }
+  .aboutus{
+      max-width: 100%;
+      overflow-x: hidden;
   }
   
   #aboutus .container::after, .row::after {
