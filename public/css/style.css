@@ -331,7 +331,6 @@ text-align: center;
 font-weight: 600;
 
   }
-<<<<<<< HEAD
   #aboutus .column {
     float: left;
     width: 23.5%;
@@ -380,7 +379,6 @@ font-weight: 600;
     text-align: center;
   }
   
-=======
   .employee-form {
     /* border-style: solid; */
     /* margin-bottom: 10px; */
@@ -472,4 +470,3 @@ label.validation-error{
 .hide{
     display:none;
 }
->>>>>>> 8e516bba40927f90a2aba3bffb23dbdb0909783c
